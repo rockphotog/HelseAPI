@@ -1,1 +1,1 @@
-# OBS! Only for testing! Do not use!
+Personal testbed for https://github.com/HL7Norway/HelseAPI
