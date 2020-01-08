@@ -30,5 +30,5 @@
   ],
   "description": "tmp",
   "purpose": "tmp",
-  "fhirVersion": "4.2.0",
+  "fhirVersion": "4.0.0",
 }

@@ -1,0 +1,74 @@
+{
+  "source": "ig.json",
+  "version" : "4.0.1",
+  "fixed-business-version" : "[optional - see below]. default = none",
+  "license" : "gratis",
+  "html-template" : "[optional - see below]. default = none",
+  "suppressedWarningFile": "[optional - see below] default = none",
+  "suppress-qa" : true,
+  "paths" : {
+    "resources" : [
+      "StructureDefinition"
+     ],
+    "pages" : [
+      "pages"
+    ],
+    "temp" : "temp",
+    "output" : "output",
+    "qa" : "qc",
+    "history" : "[history page]",
+    "specification" : "http://hl7.org/fhir"
+  },
+  "npm-name" : "[node Package Name - see below]",
+  "npm-template" : "[Optional npm package template file]",
+  "jurisdiction" : "[code]",
+  "language" : "[language]",
+  "languages" : [
+    "no-nb"
+  ],
+  "pre-process" : [{
+     "folder" : "[folder]",
+     "transform" : "[xslt file (conditional)]",
+     "relativePath" : "[relative path (conditional)]"
+  }],
+  "broken-links" : "warning",
+  "check-aggregation" : true,
+  "check-mustSupport" : true,
+  "append-slash-to-dependency-urls" : false,
+  "anyExtensionsAllowed" : false,
+  "hintAboutNonMustSupport" : true,
+  "gen-examples" : true,
+  "do-transforms" : true,
+  "canonicalBase": "http://www.seland.org/fhir",
+  "extension-domains" : [
+    "[url]"
+  ],
+  "extraTemplates": ["mapping", "foo", "bar"],
+  "defaults": {
+    "Any": {
+      "xml" : false,
+      "template-base" : "sometemplatefile.html"
+    },
+    "[Type]": {
+    }
+  },
+  "spreadsheets" : [
+    "[filename]"
+  ],
+  "bundles" : [
+    "[id]"
+  ],
+  "resources": {
+    "[Type]/[id]": {
+      "source" : "[optional source file]",
+      "version" : "[optional version]",
+      "base": "[overridden name for destination page for things referring to this resource]",
+      "template-defns": "[template to use for resource definitions]"
+    }
+  },
+  "special-urls" : [
+  ],
+  "swagger" : [
+  ],
+  "tool" : "jekyll"
+}
