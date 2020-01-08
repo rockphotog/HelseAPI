@@ -59,9 +59,8 @@
     "[id]"
   ],
   "resources": {
-    "[Type]/[id]": {
-      "source" : "[optional source file]",
-      "version" : "[optional version]",
+    "Patient/no-helseapi-Patient": {
+      "source" : "no-helseapi-Patient.structuredefinition-profile.xml",
       "base": "[overridden name for destination page for things referring to this resource]",
       "template-defns": "[template to use for resource definitions]"
     }
