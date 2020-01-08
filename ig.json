@@ -1,1 +1,34 @@
-PLACEHOLDER
+{
+  "resourceType": "StructureDefinition",
+  "id": "ImplementationGuide",
+  "meta": {
+    "lastUpdated": "2020-01-04T07:45:11.521+00:00"
+  },
+  
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "trial-use"
+    },
+  ],
+  "url": "test",
+  "version": "4.2.0",
+  "name": "Min lille minimale IG",
+  "status": "draft",
+  "experimental": "true",
+  "date": "2020-01-04T07:45:11+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ehelse.no"
+        }
+      ]
+    },
+  ],
+  "description": "tmp",
+  "purpose": "tmp",
+  "fhirVersion": "4.2.0",
+}
